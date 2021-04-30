@@ -370,10 +370,7 @@ nav {
   align-items: center;
 
   color: #DC6E05;
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  padding-right: 10px;
 }
 
 .text3--antigo {  
@@ -393,10 +390,11 @@ nav {
   text-decoration-line: line-through;
 
   color: #4E4E4E;
+  padding-left: 5px;
 }
 
 .main--div_direita {
-  height: 690px;
+  height: 720px;
   
   display: flex;
   flex-direction: column;
@@ -483,11 +481,10 @@ nav {
   align-items: center;
   
   padding: 0px;
-  margin: 0;
-  bottom: 2px;
+  margin: 0px;
+  padding-bottom: 9px;
 
   width: 359px;
-  height: 400;
 }
 
 .rectangle--ingrediente { 
@@ -498,6 +495,7 @@ nav {
   height: 88px;
 
   background: white;
+  padding-bottom: 8px;
 }
 
 .ingrediente--nome {
@@ -738,7 +736,7 @@ nav {
 
 .main--div_esquerda {
     width: 375px;
-    height: 330px;
+    height: 340px;
 }
 
 .main--divpicanha {
