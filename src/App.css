@@ -739,17 +739,15 @@ nav {
 }
 
 .main--PicanhaBacon {
-    width: 314px;
+    width: 200px;
     height: 130.96px;
 }
 
 .main--Oferta {
    width: 375px;
-   height: 159px;
-   padding-top: 24px;
-   text-align: center;
-   align-items: center;
-   justify-content: flex-end;
+   height: 100px;
+   padding-top: 60px;
+   justify-content: space-evenly;
 }
 
 .main--text1 {
