@@ -142,15 +142,6 @@ function App() {
               </div>
               <div className="box--rectangle1">
                 <h1 className="rectangle1--talher">Precisa de Talher?</h1>
-                <div className="resposta--1">
-                  <section className="resposta--sim">
-                    teste
-                  </section>
-                  <section className="resposta--nao">
-                    teste
-                  </section>
-                </div>
-                <div></div>
               </div>
             </div>
             <div className="__bottom">
