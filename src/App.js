@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 
-import arrow_24px from '../src/imgs/arrow_24px.png'
+
 import deliverizelogo1 from '../src/imgs/deliverizelogo1.png';
 import deliverizelogo2 from '../src/imgs/deliverizelogo2.png';
 import icone1 from '../src/imgs/icones/icone1/account_circle_24px.png';
@@ -12,6 +12,7 @@ import line from '../src/imgs/line1.png';
 import vector1 from '../src/imgs/vector1.png';
 import vector2 from '../src/imgs/vector2.png';
 import keyboard from '../src/imgs/keyboard_arrow_down_24px.png';
+import arrow_24px from '../src/imgs/arrow_24px.png'
 import vector3 from '../src/imgs/vector3.png';
 
 function App() {
@@ -19,30 +20,38 @@ function App() {
     <div className="App">
       <header>
         <nav>
-          <img className="nav--button" src={arrow_24px} alt="arrow24px" />
           <div className="nav--logo">
+            <img className="nav--button" src={arrow_24px} alt="arrow24px" />
             <div className="nav--logo1"><img alt="" src={deliverizelogo1} /></div>
             <div className="nav--logo2"><img alt="" src={deliverizelogo2} /></div>
           </div>
-          <div className="nav--background">
-            <h1 className="nav--background_entrega">Entrega</h1>
-            <div className="container__keyboard">
+          <div className="nav__topolinear">
+            <div className="nav--background">
+              <h1 className="nav--background_entrega">Entrega:</h1>
+              <h1 className="nav--background_endereco">R: Antonie Braune, 222</h1>
               <img alt="" src={keyboard} className="__keyboard" />
             </div>
-            <h1 className="nav--background_endereco">R: Antonie Braune, 222</h1>
-          </div>
-          <form>
-            <input className="nav--inputplaceholder" type="text" placeholder=" Busque por estabelecimento ou produtos"></input>
-          </form>
-          <div className="div--ul">
-            <ul className="nav--ul">
-              <div className="nav--icone1"><img alt="" src={icone1} /> </div>
-              <li class="nav--link1"><a href="https://www.deliverize.com.br/">Entrar</a></li>
-              <div className="nav--icone2"><img alt="" src={icone2} /></div>
-              <li class="nav--link2"><a href="https://www.deliverize.com.br/">Carrinho</a></li>
-              <div className="nav--ico2part2"><img alt="" src={icone3} /></div>
-              <li class="nav--link3"><a href="https://www.deliverize.com.br/">1</a></li>
-            </ul>
+            <div className="nav--inputplaceholder">
+              <form>
+                <input className="nav--inputplaceholder" type="text" placeholder=" Busque por estabelecimento ou produtos"></input>
+              </form>
+            </div>
+            <div className="div--ul">
+              <ul className="nav--ul">
+                <div className="ul--1">
+                  <div className="nav--icone1"><img alt="" src={icone1} /> </div>
+                  <li class="nav--link1"><a href="https://www.deliverize.com.br/">Entrar</a></li>
+                </div>
+                <div className="ul--2">
+                  <div className="nav--icone2"><img alt="" src={icone2} /></div>
+                  <div className="nav--ico2part2"><img alt="" src={icone3} /></div>
+                  <div className="link--carrinho">
+                    <li class="nav--link2"><a href="https://www.deliverize.com.br/">Carrinho</a></li>
+                    <p className="ico--numero">1</p>
+                  </div>
+                </div>
+              </ul>
+            </div>
           </div>
         </nav>
       </header>
@@ -55,9 +64,11 @@ function App() {
             <div className="main--Oferta">
               <h1 className="main--text1">Oferta Picanha Cheddar Bacon</h1>
               <h1 className="main--text2">Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim</h1>
-              <div className="main--text3">
-                <h1 className="text3--atual">R$31,99 </h1>
-                <h1 className="text3--antigo">R$34,95</h1>
+              <div className="main--preco">
+                <div className="main--text3">
+                  <h1 className="text3--atual">R$31,99 </h1>
+                  <h1 className="text3--antigo">R$34,95</h1>
+                </div>
               </div>
             </div>
           </section>
@@ -131,11 +142,20 @@ function App() {
               </div>
               <div className="box--rectangle1">
                 <h1 className="rectangle1--talher">Precisa de Talher?</h1>
+                <div className="resposta--1">
+                  <section className="resposta--sim">
+                    teste
+                  </section>
+                  <section className="resposta--nao">
+                    teste
+                  </section>
+                </div>
+                <div></div>
               </div>
             </div>
             <div className="__bottom">
               <div className="__add">
-                <div className="bottom--retangle">
+                <div className="bottom--rectangle">
                   <img alt="" src={vector1} className="__vector1" />
                   <form>
                     <input className="container--inputqtd" type="text" id="qtd" value="  1"></input>
