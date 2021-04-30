@@ -143,6 +143,18 @@ function App() {
               <div className="box--rectangle1">
                 <h1 className="rectangle1--talher">Precisa de Talher?</h1>
               </div>
+              <div className="box--perguntas">
+                <form>
+                  <div className="perguntas--sim">
+                    <p>Sim</p>
+                    <input type="radio" className="radio1" value="1" />
+                  </div>
+                  <div className="perguntas--nao">
+                    <p>Não</p>
+                    <input type="radio" className="radio2" value="2" />
+                  </div>
+                </form>
+              </div>
             </div>
             <div className="__bottom">
               <div className="__add">

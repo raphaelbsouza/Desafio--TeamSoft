@@ -396,18 +396,14 @@ nav {
 }
 
 .main--div_direita {
-  position: static;
-  width: 439px;
-  height: 662px;
-  left: 775px;
-  top: 104px;
+  height: 690px;
   
   display: flex;
   flex-direction: column;
   align-items: stretch;
   justify-content: space-between;
 
-  padding: 32px;
+  padding: 35px;
   align-self: flex-start;
   
   border: 1px solid #686868;
@@ -491,7 +487,7 @@ nav {
   bottom: 2px;
 
   width: 359px;
-  height: 436px;
+  height: 400;
 }
 
 .rectangle--ingrediente { 
@@ -605,22 +601,34 @@ nav {
   color: #4E4E4E;
 }
 
-.resposta--1 {
+.box--perguntas {
+  display: flex;
+  flex-direction: column;
   width: 343px;
-  height: 30px;
-  background: #D80000;
 }
 
-.resposta--sim {
-  width: 343px;
-  height: 30px;
-  background: #00d8a9;
+.perguntas--sim {
+  width: 343px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 
-.resposta--nao {
+.perguntas--nao {
   width: 343px;
-  height: 30px;
-  background: #5a4545;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .__bottom {
@@ -816,7 +824,7 @@ nav {
 
 .container--ingredientes {
   max-width: 355px;
-  max-height: 712px;
+  max-height: 730px;
 }
 
 .__bottom {
